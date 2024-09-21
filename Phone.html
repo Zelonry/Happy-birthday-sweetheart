@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PhoneCss.css">
+    <link rel="stylesheet" href="style.css">
+    <title>С днем рождения тебя</title>
+
+    <script>
+        function digitalClock() {
+         var date = new Date();
+         var hours = date.getHours();
+         var minutes = date.getMinutes();
+            //* добавление ведущих нулей */
+           if (hours < 10) hours = "0" + hours;
+           if (minutes < 10) minutes = "0" + minutes;
+             document.getElementById("id_clock").innerHTML = hours + ":" + minutes;
+             setTimeout("digitalClock()", 1000);
+        }
+       </script>
+</head>
+<body>
+    <div class="Phone">
+        <div class="cam"></div>
+        <div class="clock">
+            <div id="id_clock"></div>
+            <script>digitalClock();</script>
+        </div>
+        <div id="app" class="tiktok"></div>
+        <a href="http://vk.com" target="_blank"><div id="app" class="vk"></div></a>
+        <a href="http://t.me.com" target="_blank"><div id="app" class="tg"></div></a>
+        <a href="http://rave.com" target="_blank"><div id="app" class="rave"></div></a>
+        <a href="https://music.yandex.ru/users/serge100bakan/playlists/1008" target="_blank"><div id="app" class="music"></div></a>
+        <a href="#" target="_blank"><div id="app" class="Heppy"></div></a>
+
+        <div class="bottomApp">
+            <a href="+79610822948" target="_blank"><div id="app" class="phone"></div></a>
+            <a href="#" target="_blank"><div id="app" class="Galary"></div></a>
+            <a href="http://google.com" target="_blank"><div id="app" class="safary"></div></a>
+            <a href="#" target="_blank"><div id="app" class="AppStore"></div></a>
+        </div>
+        <a href="Phone.html"><div class="button"></div></a>
+
+    </div>
+
+    <script src="scriptPhone.js"></script>
+
+</body>
+</html>

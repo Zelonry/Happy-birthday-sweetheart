@@ -1,0 +1,12 @@
+.opened {
+    transform: scale(12);
+
+    position: relative;
+
+    left: 100px;
+    top: 250px;
+
+    z-index: 100;
+
+    transition: all 0.5s;
+}

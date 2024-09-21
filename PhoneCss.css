@@ -1,0 +1,173 @@
+.Phone {
+    width: 260px;
+    height:500px;
+    background-image: url(img/background/3D-graphics_Florets_027347_.jpg);
+    background-size: 300px px;
+    
+
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+    border: 5px rgb(194, 0, 133) solid;
+    border-radius: 5%;
+
+    box-shadow: 4px 6px 2px rgb(255, 0, 234);
+    
+    overflow: hidden;
+}
+
+.cam {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 7px;
+    left: 100px;
+
+    border-radius: 40%;
+
+    transition: 0.4s all;
+}
+
+.clock {
+    position: absolute;
+    left: 20px;
+    top: 4px;
+    color: white;
+    font-size: 21px;
+}
+
+#app {
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+
+    position: absolute;
+
+    cursor: pointer;
+}
+
+.tiktok {
+
+    background-image: url(img/app/tiktok.png);
+    background-size: contain;
+
+
+    left: 10px;
+    top: 40px;
+
+    transition: all 0.3;
+}
+
+.vk {
+    background-image: url(img/app/VK.png);
+    background-size: contain;
+
+
+    left: 70px;
+    top: 40px;
+}
+
+.tg {
+    background-image: url(img/app/telegram.png);
+    background-size: contain;
+
+    top: 40px;
+    left: 130px;
+}
+
+.button {
+    width: 100px;
+    height: 2px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 1025-1440%;
+
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    
+    cursor: pointer;
+}
+
+.rave {
+    background-image: url(img/app/rave.png);
+    background-size: 50px 50px;
+
+    transform: scale(1.1);
+    top: 40px;
+    left: 190px
+}
+
+.music {
+
+    background-image: url(img/app/music.png);
+    background-size: contain;
+
+    transform: scale(1.1);
+
+    left: 10px;
+    top: 100px;
+
+}
+
+.Heppy {
+    background-color: white;
+    background-image: url(img/app/ДеньРождение.png);
+    background-size: contain;
+
+
+    left: 70px;
+    top: 100px;
+
+}
+
+.bottomApp {
+    width: 250px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.603);
+
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+
+    border-radius: 16%;
+}
+
+.phone {
+    background-image: url(img/app/phone.png);
+    background-size: contain;
+
+    left: 10px;
+    top: 2px;
+}
+
+.Galary {
+    background-image: url(img/app/Galary.png);
+    background-size: contain;
+
+    left: 70px;
+    top: 2px;
+}
+
+.safary {
+    background-color: white;
+    background-image: url(img/app/safari.png);
+    background-size: contain;
+    transform: scale(0.95);
+
+    left: 130px;
+    top: 2px;
+}
+
+.AppStore {
+    background-image: url(img/app/appstore.png);
+    background-size: contain;
+
+    transform: scale(1.1);
+
+    left: 190px;
+    top: 2px;
+}
